@@ -137,3 +137,197 @@ a character vector containing the element "2".
 a list containing the number 2.
 
 a numeric vector containing the element 2. [ANSWER]
+
+
+Question 9
+Suppose I have a vector x <- 1:4 and a vector y <- 2. What is produced by the expression x + y?
+1 / 1 point
+
+an integer vector with elements 3, 2, 3, 4.
+
+a numeric vector with elements 3, 4, 5, 6. [ANSWER]
+
+a numeric vector with elements 1, 2, 3, 6.
+
+a numeric vector with elements 3, 2, 3, 6.
+
+a numeric vector with elements 3, 2, 3, 4.
+
+an integer vector with elements 3, 2, 3, 6
+
+
+Question 10
+Suppose I have a vector x <- c(17, 14, 4, 5, 13, 12, 10) and I want to set all elements of this vector that are greater than 10 to be equal to 4. What R code achieves this? Select all that apply.
+0 / 1 point
+
+x[x < 10] <- 4
+
+x[x == 10] <- 4
+
+x[x >= 11] <- 4 [ANSWER]
+
+x[x >= 10] <- 4
+
+x[x == 4] > 10
+
+x[x > 10] == 4
+
+x[x > 10] <- 4
+
+x[x > 4] <- 10
+
+
+Question 11
+Use the Week 1 Quiz Data Set to answer questions 11-20.
+In the dataset provided for this Quiz, what are the column names of the dataset? 
+1 / 1 point
+
+1, 2, 3, 4, 5, 6
+
+Month, Day, Temp, Wind
+
+Ozone, Solar.R, Wind, Temp, Month, Day [ANSWER]
+
+Ozone, Solar.R, Wind
+
+
+
+Question 12
+Extract the first 2 rows of the data frame and print them to the console. What does the output look like?
+1/1 point
+
+
+1   Ozone Solar.R Wind Temp Month Day
+2  1     7      NA  6.9   74     5  11
+3  2    35     274 10.3   82     7  17
+
+
+1    Ozone Solar.R Wind Temp Month Day
+2  1     9      24 10.9   71     9  14
+3  2    18     131  8.0   76     9  29
+
+
+1    Ozone Solar.R Wind Temp Month Day
+2  1    18     224 13.8   67     9  17
+3  2    NA     258  9.7   81     7  22
+
+
+1   Ozone Solar.R Wind Temp Month Day
+2  1    41     190  7.4   67     5   1     [ANSWER]
+3  2    36     118  8.0   72     5   2
+
+
+Question 13
+How many observations (i.e. rows) are in this data frame?
+1 / 1 point
+
+45
+
+153
+
+129
+
+160 [ANSWER]
+
+
+Question 14
+Extract the last 2 rows of the data frame and print them to the console. What does the output look like?
+1/1 point
+
+1      Ozone Solar.R Wind Temp Month Day
+2  152    31     244 10.9   78     8  19
+3  153    29     127  9.7   82     6   7
+
+1     Ozone Solar.R Wind Temp Month Day
+2  152    11      44  9.7   62     5  20
+3  153   108     223  8.0   85     7  25
+
+
+1      Ozone Solar.R Wind Temp Month Day
+2  152    18     131  8.0   76     9  29   [ANSWER]
+3  153    20     223 11.5   68     9  30
+
+
+    Ozone Solar.R Wind Temp Month Day
+152    34     307  12.0   66     5  17
+153    13     27  10.3   76    9  18
+
+
+Question 15
+What is the value of Ozone in the 47th row?
+1 / 1 point
+
+34
+
+63
+
+18
+
+21 [ANSWER]
+
+
+Question 16
+How many missing values are in the Ozone column of this data frame?
+1 / 1 point
+
+37 [ANSWER]
+
+78
+
+9
+
+43
+
+
+Question 17
+What is the mean of the Ozone column in this dataset? Exclude missing values (coded as NA) from this calculation.
+1 / 1 point
+
+42.1 [ANSWER]
+
+53.2
+
+31.5
+
+18.0
+
+
+
+Question 18
+Extract the subset of rows of the data frame where Ozone values are above 31 and Temp values are above 90. What is the mean of Solar.R in this subset?
+1 / 1 point
+
+334.0
+
+212.8  [ANSWER]
+
+205.0
+
+185.9
+
+
+Question 19
+What is the mean of "Temp" when "Month" is equal to 6? 
+1 / 1 point
+
+75.3
+
+85.6
+
+79.1 [ANSWER]
+
+90.2
+
+
+Question 20
+What was the maximum ozone value in the month of May (i.e. Month is equal to 5)?
+1 / 1 point
+
+97
+
+115 [ANSWER]
+
+100
+
+18
+

@@ -1,0 +1,53 @@
+Q]The R language is a dialect of which of the following programming languages?
+1 / 1 point
+
+C
+
+Java
+
+Haskell
+
+S [ANSWER]
+
+
+Q]The definition of free software consists of four freedoms (freedoms 0 through 3). Which of the following is NOT one of the freedoms that are part of the definition?  Select all that apply.
+0 / 1 point
+
+The freedom to prevent users from using the software for undesirable purposes.
+
+The freedom to redistribute copies so you can help your neighbor.
+
+The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
+
+The freedom to restrict access to the source code for the software.
+
+The freedom to sell the software for any price.[ANSWER]
+
+The freedom to run the program, for any purpose.
+
+The freedom to study how the program works, and adapt it to your needs.
+
+
+
+Q]In R the following are all atomic data types EXCEPT: (Select all that apply)
+0 / 1 point
+
+data frame
+
+logical
+
+table
+
+matrix[ANSWER]
+
+list
+
+integer
+
+array
+
+character
+
+complex
+
+numeric
